@@ -1,0 +1,273 @@
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+html {
+	box-sizing: border-box;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	min-width: 320px;
+	min-height: 100vh;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.4em;
+	font-family: "Verdana", "Arial", sans-serif;
+	color: #1a212f;
+	background-color: #fffefd;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+	white-space: nowrap;
+	-webkit-clip-path: inset(100%);
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+}
+
+.noscroll {
+	overflow: hidden;
+	max-height: 100vh;
+}
+
+.center {
+	max-width: 1366px;
+	margin: 0 auto;
+	padding: 0 98px;
+}
+
+.center--flex {
+	display: flex;
+	align-items: flex-start;
+}
+
+.center--padding-t {
+	padding-top: 130px;
+}
+
+.center--padding-b {
+	padding-bottom: 20px;
+}
+
+.main h1,
+.main h2,
+.main b {
+	margin: 0;
+	padding: 0;
+	font-family: "Rubik", "Arial", sans-serif;
+	font-size: 62px;
+	line-height: 73px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.main h1 {
+	margin-bottom: 2px;
+}
+
+.main h2,
+.main b {
+	margin-bottom: 61px;
+	font-size: 36px;
+	line-height: 43px;
+	text-align: center;
+}
+
+.main b {
+	display: block;
+}
+
+.main h3 {
+	margin: 0;
+	margin-bottom: 9px;
+	padding: 0;
+	font-family: "Rubik", "Arial", sans-serif;
+	font-size: 22px;
+	line-height: 26px;
+	font-weight: 500;
+}
+
+.main p {
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.main__intro {
+	padding: 149px 198px 153px;
+	background-image: url("../img/koteika@1x.jpg");
+	background-size: cover;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-color: #fef3e3;
+}
+
+.main__intro p {
+	margin-bottom: 36px;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+.main__intro p:first-child {
+	margin: 0;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.advantages {
+	background-image: url("../img/paw.svg");
+	background-position: 112% -28px;
+	background-repeat: no-repeat;
+	background-size: 458px 426px;
+	overflow: hidden;
+}
+
+.advantages__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	margin-right: -2.5%;
+	margin-bottom: -30px;
+}
+
+.advantages__list .advantages__item {
+	margin-right: 2.5%;
+	margin-bottom: 19px;
+}
+
+.advantages__item {
+	width: 30.8%;
+	min-height: 321px;
+	padding: 30px;
+	padding-bottom: 25px;
+	padding-right: 25px;
+	background-color: #ffffff;
+	box-shadow: 0 0 25px rgba(208, 208, 208, 0.25);
+	border-radius: 8px;
+}
+
+.advantages__item--temp p {
+	padding-right: 20px;
+}
+
+.advantages__item--video p {
+	padding-right: 35px;
+}
+
+.advantages__item--taxi p {
+	padding-right: 55px;
+}
+
+.advantages__item--food p {
+	padding-right: 55px;
+}
+
+.advantages__icon,
+.advantages img {
+	margin-bottom: 25px;
+	background-color: #fef3e3;
+	border-radius: 50%;
+}
+
+.button {
+	padding: 0;
+	background: none;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	color: inherit;
+	position: relative;
+	max-width: 230px;
+	min-width: 122px;
+	margin-bottom: 25px;
+	padding: 15px 64px 17px 30px;
+	text-align: left;
+	color: #fffefd;
+	background-color: #ff7236;
+	border-radius: 25px;
+	transition: 0.2s ease;
+}
+
+.button:last-child {
+	margin-bottom: 0;
+}
+
+.button:focus,
+.button:hover {
+	outline: none;
+	opacity: 0.8;
+}
+
+.button:active {
+	outline: none;
+	opacity: 0.6;
+}
+
+.button__paw {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 50%;
+	right: 7px;
+	width: 36px;
+	height: 36px;
+	margin-top: -18px;
+	background-color: #fffefd;
+	border-radius: 50%;
+}
+
+.button__paw use {
+	fill: #ff7236;
+}
+
+.button--white {
+	padding: 15px 64px 17px 30px;
+	color: #1a212f;
+	background-color: #fffefd;
+}
+
+.button--white .button__paw {
+	background-color: #ff7236;
+}
+
+.button--white .button__paw use {
+	fill: #fffefd;
+}
