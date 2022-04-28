@@ -149,7 +149,7 @@ img {
 
 .advantages {
 	background-image: url("../img/paw.svg");
-	background-position: 112% -28px;
+	background-position: 147% -10px;
 	background-repeat: no-repeat;
 	background-size: 458px 426px;
 	overflow: hidden;
@@ -162,8 +162,8 @@ img {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: stretch;
-	margin-right: -2.5%;
-	margin-bottom: -30px;
+	margin-right: -11.5%;
+	margin-left: -45px;
 }
 
 .advantages__list .advantages__item {
