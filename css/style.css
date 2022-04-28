@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	width: 320px;
+	width: 768px;
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -81,8 +81,8 @@ img {
 	margin: 0;
 	padding: 0;
 	font-family: "Rubik", "Arial", sans-serif;
-	font-size: 44px;
-	line-height: 52px;
+	font-size: 62px;
+	line-height: 73px;
 	font-style: normal;
 	font-weight: bold;
 }
@@ -93,11 +93,9 @@ img {
 
 .main h2,
 .main b {
-	margin-left: -16%;
-	white-space: nowrap;
-	margin-bottom: 40px;
-	font-size: 28px;
-	line-height: 33px;
+	margin-bottom: 61px;
+	font-size: 36px;
+	line-height: 43px;
 	text-align: center;
 }
 
@@ -110,8 +108,8 @@ img {
 	margin-bottom: 9px;
 	padding: 0;
 	font-family: "Rubik", "Arial", sans-serif;
-	font-size: 18px;
-	line-height: 25px;
+	font-size: 20px;
+	line-height: 28px;
 	font-weight: bold;
 }
 
@@ -126,14 +124,14 @@ img {
 }
 
 .main__intro {
-	padding-top: 50px;
-	background-image: url("../img/koteika-mobile@1x.jpg");
+	padding: 149px 198px 153px;
+	background-image: url("../img/koteika-tablet@1x.jpg");
 	background-size: cover;
 	background-position: left center;
 	background-repeat: no-repeat;
 	background-color: #fef3e3;
 	text-align: center;
-	min-height: 457px;
+	min-height: 868px;
 }
 
 .main__intro p {
@@ -151,7 +149,7 @@ img {
 
 .advantages {
 	background-image: url("../img/paw.svg");
-	background-position: 112% -28px;
+	background-position: 147% -10px;
 	background-repeat: no-repeat;
 	background-size: 458px 426px;
 	overflow: hidden;
@@ -164,8 +162,8 @@ img {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: stretch;
-	margin-bottom: -8px;
-	margin-left: -85px;
+	margin-right: -11.5%;
+	margin-left: -45px;
 }
 
 .advantages__list .advantages__item {
@@ -175,8 +173,8 @@ img {
 
 .advantages__item {
 	width: 30.8%;
-	min-height: 321px;
-	min-width: 290px;
+	min-height: 285px;
+	min-width: 324px;
 	padding: 30px;
 	padding-bottom: 25px;
 	padding-right: 25px;
