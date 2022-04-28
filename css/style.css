@@ -3,14 +3,6 @@
 *::after {
 	box-sizing: inherit;
 }
-@media screen and (max-width: 1023px) {
-	.main__intro {
-		background-image: url("../img/koteika-tablet@1x.jpg	");
-	}
-	body {
-		background-color: black;
-	}
-}
 html {
 	box-sizing: border-box;
 	height: 100%;
