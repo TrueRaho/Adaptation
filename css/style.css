@@ -9,6 +9,7 @@ html {
 }
 
 body {
+	width: 768px;
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -124,11 +125,13 @@ img {
 
 .main__intro {
 	padding: 149px 198px 153px;
-	background-image: url("../img/koteika@1x.jpg");
+	background-image: url("../img/koteika-tablet@1x.jpg");
 	background-size: cover;
 	background-position: left center;
 	background-repeat: no-repeat;
 	background-color: #fef3e3;
+	text-align: center;
+	min-height: 868px;
 }
 
 .main__intro p {
@@ -170,7 +173,8 @@ img {
 
 .advantages__item {
 	width: 30.8%;
-	min-height: 321px;
+	min-height: 285px;
+	min-width: 324px;
 	padding: 30px;
 	padding-bottom: 25px;
 	padding-right: 25px;
