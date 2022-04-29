@@ -46,7 +46,7 @@
 		list-style: none;
 		display: flex;
 		flex-wrap: wrap;
-		align-items: stretch;
+		align-items: center;
 		margin-right: -11.5%;
 		margin-left: -45px;
 	}
@@ -55,7 +55,8 @@
 		margin-bottom: 30px;
 	}
 	.advantages__item {
-		width: 26.97%;
+		width: 46%;
+		min-width: 324px;
 		min-height: 285px;
 		padding: 30px;
 		padding-bottom: 25px;
