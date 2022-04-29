@@ -55,15 +55,22 @@
 		margin-bottom: 30px;
 	}
 	.advantages__item {
-		width: 30.8%;
+		width: 26.97%;
 		min-height: 285px;
-		min-width: 324px;
 		padding: 30px;
 		padding-bottom: 25px;
 		padding-right: 25px;
 		background-color: #ffffff;
 		box-shadow: 0 0 25px rgba(208, 208, 208, 0.25);
 		border-radius: 8px;
+	}
+	.advantages__icon,
+	.advantages img {
+		margin-bottom: 20px;
+		background-color: #fef3e3;
+		border-radius: 50%;
+		max-width: 75px;
+		max-height: 75px;
 	}
 }
 
@@ -124,6 +131,12 @@
 		background-color: #ffffff;
 		box-shadow: 0 0 25px rgba(208, 208, 208, 0.25);
 		border-radius: 8px;
+	}
+	.advantages__icon,
+	.advantages img {
+		margin-bottom: 25px;
+		background-color: #fef3e3;
+		border-radius: 50%;
 	}
 }
 
@@ -253,13 +266,6 @@ img {
 
 .advantages__item--food p {
 	padding-right: 55px;
-}
-
-.advantages__icon,
-.advantages img {
-	margin-bottom: 25px;
-	background-color: #fef3e3;
-	border-radius: 50%;
 }
 
 .button {
